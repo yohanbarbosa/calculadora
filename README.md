@@ -1,13 +1,3 @@
-## Link al curso completo de Javascript en Youtube:
-[VIDEO CURSO GRATIS COMPLETO: JavaScript Desde Cero por Sergie Code](https://youtu.be/N8Xt5rP_DUo)
-
-
-# Tutorial de Calculadora en JavaScript
-
-Link para ver resultado: [CALCULADORA TRABAJO TERMINADO](https://calculadora-tutorial-js.netlify.app/)
-
-Este es un tutorial que te guiará a través del proceso de creación de una calculadora utilizando JavaScript. El código HTML y CSS necesario para la interfaz de la calculadora estará disponible en el repositorio, por lo que nos centraremos en explicar el funcionamiento del código JavaScript a continuación.
-
 ## Funciones Principales
 
 ### `agregarALaPantalla(value)`
@@ -45,3 +35,5 @@ Para utilizar estas funciones, asegúrate de tener un elemento HTML con el id "p
 Recuerda que puedes personalizar la interfaz y agregar más funcionalidades según tus necesidades.
 
 ¡Ahora estás listo para crear tu propia calculadora en JavaScript! Sigue este tutorial y diviértete explorando el mundo de la programación web.
+
+### THANKS SERGIECODE ###
