@@ -34,6 +34,6 @@ Para utilizar estas funciones, asegúrate de tener un elemento HTML con el id "p
 
 Recuerda que puedes personalizar la interfaz y agregar más funcionalidades según tus necesidades.
 
-¡Ahora estás listo para crear tu propia calculadora en JavaScript! Sigue este tutorial y diviértete explorando el mundo de la programación web.
+¡Ahora estás listo para crear tu propia calculadora en JavaScript! diviértete explorando el mundo de la programación web.
 
 ### THANKS SERGIECODE ###
