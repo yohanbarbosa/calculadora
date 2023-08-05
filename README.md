@@ -28,12 +28,22 @@ La función `limpiarPantalla()` se utiliza para borrar el contenido de la pantal
         document.getElementById('pantalla').value = '';
     }
 
+### `borrarUnSoloNumero()`
+la funcion `borrarUnSoloNumero()` se utiliza para borrar el ultimo cararter del contenido de la pantalla mediante el metodo slice(), ya que `pantalla.value` devuelve el contenido actual de la pantalla, que es una cadena de texto que contiene los números y operadores ingresados. El método slice(0, -1) devuelve una nueva subcadena del contenido original, excluyendo el último carácter. En otras palabras, elimina el último carácter de la cadena. Esto se logra al especificar el índice inicial 0 y el índice final -1. El índice -1 representa el último carácter de la cadena.De esta manera, cada vez que presiones el botón "backspace", se eliminará el último número o operador ingresado en la pantalla.
+
+    function borrarUnSoloNumero() {
+    const pantalla = document.getElementById("pantalla");
+    const contenido = pantalla.value;
+    document.getElementById("pantalla").value = contenido.slice(0, -1); // Elimina el último carácter
+  };
+
+
 ## Integración con HTML y CSS
 
 Para utilizar estas funciones, asegúrate de tener un elemento HTML con el id "pantalla" que represente la pantalla de la calculadora. Puedes ver el código HTML y CSS correspondiente en los archivos proporcionados en el repositorio.
 
 Recuerda que puedes personalizar la interfaz y agregar más funcionalidades según tus necesidades.
 
-¡Ahora estás listo para crear tu propia calculadora en JavaScript! diviértete explorando el mundo de la programación web.
+¡Ahora estás listo para crear tu propia calculadora en JavaScript!, diviértete explorando el mundo de la programación web.
 
 ### THANKS SERGIECODE ###
