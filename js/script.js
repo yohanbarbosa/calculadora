@@ -16,3 +16,9 @@ function calcular(){
     const resultado = eval(valorPantalla);
     document.getElementById('pantalla').value = resultado;
 };
+
+function borrarUnSoloNumero() {
+    const pantalla = document.getElementById("pantalla");
+    const contenido = pantalla.value;
+    document.getElementById("pantalla").value = contenido.slice(0, -1); // Elimina el último carácter
+  };
