@@ -22,3 +22,17 @@ function borrarUnSoloNumero() {
     const contenido = pantalla.value;
     document.getElementById("pantalla").value = contenido.slice(0, -1); // Elimina el último carácter
   };
+
+
+
+  document.addEventListener("keydown", function(event) {
+    if (event.key >= '0' && event.key <= '9') {
+        document.getElementById('pantalla').value += event.key;
+      var numero = event.key;
+      console.log("Se presionó la tecla numérica: " + numero);
+    }
+
+    
+  });
+  
+  
